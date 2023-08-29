@@ -1,0 +1,87 @@
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: 50px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+.styled-table thead tr {
+  background-color: #793fdf;
+  color: #ffffff;
+  text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.table-price,
+.table-category {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #793fdf;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #ececec;
+}
+
+.table-description {
+  min-width: 300px;
+  overflow-x: auto;
+  table-layout: fixed;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions > button {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid #793fdf;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #793fdf;
+
+  transition: all 0.2s ease;
+}
+
+.actions > button:hover {
+  background-color: #793fdf;
+  color: #ffffff;
+}
+
+.action-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.not-found {
+  column-span: 2;
+  background-color: #793fdf;
+}
