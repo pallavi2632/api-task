@@ -52,7 +52,7 @@ const SearchBar = ({ onSearch }) => {
           type="button"
           className="button"
         >
-          <HiMagnifyingGlass className="button-search" />
+          <HiMagnifyingGlass onClick={handleKeyPress} className="button-search"/>
         </button>
       </div>
       <DropdownMenu
